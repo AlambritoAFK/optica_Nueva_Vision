@@ -1,0 +1,175 @@
+/* Ajustes globales para eliminar los espacios
+   y que los elementos tengan dimensiones exactas
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* VARIABLES GLOBALES*/
+
+:root
+{
+    --color-principal: #74cf46;
+    --color-secundario: #2F9C95;
+    --color-terciario: #EB6534;
+    --color-gris-claro: #FBFBFB;
+    --color-gris-oscuro: #414141;
+}
+
+/*
+    ****Parte 1. Header****
+
+    En esta parte se colocan los estilos de la barra de navegación
+    Está dividida por dos sub-partes
+
+    Parte 1.1 = Diseño Mobile First, primero se hacen los diseños pensando
+    en dispositivos móviles
+
+    Parte 1.2 = Diseño para tablets, pantallas medianas a partir de 768px,
+    Esta parte también está destinada a pantallas grandes
+
+    Parte 1.3 = Diseño para escritorio, pantallas grandes
+    Esta sub-parte está diseñada solo para elementos muy específicos, puede que no se use
+
+    ************************
+*/
+
+/* INICIO Parte 1.1*/
+
+    .contenedor__header{
+        display: flex;
+        flex-direction: column;
+    }
+    .marca__nav
+    {
+        display: flex;
+        height: auto;
+        align-items: center;
+        padding: 25px;
+        border-bottom: 1px solid lightgray;
+        justify-content: space-between;
+    }
+    .marca__nav svg{
+        color: var(--color-principal);
+        margin-right: 10px;
+    }
+    .toggle__nav
+    {
+        display: flex;
+        height: 44px;
+        width: 44px;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .toggle__nav svg{
+        margin: 0;
+    }
+    .barra__nav{
+        padding: 0;
+    }
+    .barra__nav ul{
+        list-style: none;
+    }
+    .barra__nav li
+    {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+    }
+    .barra__nav li a{
+        display: flex;
+        border-top: 2px solid white;
+        background-color: var(--color-gris-claro);
+        text-decoration: none;
+        align-items: center;
+        color: var(--color-gris-oscuro);
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+        transition: color 0.2s ease;
+        padding: 0 25px;
+    }
+    .barra__nav li a:hover{
+        color: var(--color-principal);
+        font-weight: bold;
+    }
+    .boton__iniciarSesion{
+        background-color: var(--color-principal) !important;
+        color: white !important;
+        transition: all 0.2s ease !important;
+    }
+    .boton__iniciarSesion:hover
+    {
+        font-weight: bold;
+    }
+
+/*TERMINA Parte 1.1*/
+
+/* INICIO Parte 1.2*/
+
+    @media (min-width: 768px)
+    {
+        .contenedor__header
+        {
+            padding: 25px 15px;
+            flex-direction: row;
+            border-bottom: 1px solid lightgray;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .marca__nav
+        {
+            justify-content: start;
+            border-bottom: none;
+            padding: 0;
+            width: 30%;
+        }
+        .toggle__nav
+        {
+            display: none;
+        }
+        .barra__nav
+        {
+            display: flex;
+            justify-content: end;
+            width: 70%;
+        }
+        .barra__nav ul
+        {
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .barra__nav li{
+            height: auto;
+            align-items: center;
+            
+        }
+        .barra__nav li a{
+            background-color: transparent;
+            padding: 0;
+            justify-content: center;
+            height: 44px;
+            text-align: center;
+            width: 118px;
+        }
+        .barra__nav li a:hover{
+            font-weight: 400;
+        }
+        .boton__iniciarSesion{
+            text-align: center;
+            width: auto;
+            border-radius: 8px;
+        }
+        .boton__iniciarSesion:hover
+        {
+            background-color: #7CD351 !important;
+        }
+    }
