@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Barra de Navegacion-->
     <header class="contenedor__header">
         <div class="marca__nav">
                 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
@@ -37,5 +38,233 @@
             </ul>
         </nav>
     </header>
+
+    <!--Banner principal o Hero-->
+
+    <section class="contenedor__hero">
+        <div class="texto__hero">
+            <h1 class="titulo__hero">
+                Óptica Linda Vision
+            </h1>
+            <p class="parrafo__hero">
+                Tu salud visual es nuestra prioridad. Ofrecemos servicios de examen de vista, 
+                diagnóstico profesional y una amplia selección de lentes de la más alta calidad para cuidar de tus ojos.
+            </p>
+            <div class="botones__hero">
+                <a class="boton__hero" href="#">Ver Servicios</a>
+                <a class="boton__hero boton__hero--claro" href="#">Agendar Cita</a>
+            </div>
+        </div>
+        <div class="imagen__hero">
+            <img src="imagenes/oculista_hero.jpg" alt="">
+        </div>
+    </section>
+
+    <!--Seccion Sobre Nosotros-->
+
+    <section class="contenedor__nosotros">
+            <div class="texto__hero">
+                <h2 class="titulo__hero titulo__hero--nosotros">
+                    Sobre Nosotros
+                </h2>
+                <p class="parrafo__hero parrafo__hero--nosotros">
+                    En Óptica Linda Visión nos dedicamos a proporcionar servicios de cuidado visual de la más alta calidad. Nuestro equipo de profesionales altamente capacitados utiliza tecnología de vanguardia para garantizar el mejor diagnóstico y tratamiento para tus ojos.
+                    <br>
+                    <br>
+                    Con años de experiencia en el sector, nos enorgullece ofrecer un servicio personalizado y cercano, asegurando que cada paciente reciba la atención que merece. Tu satisfacción y salud visual son nuestra mayor recompensa.
+                </p>
+                <div class="valores__nosotros">
+                    <div class="valor__conjunto">
+                        <div class="valor__esfera">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" class="bi bi-trophy" viewBox="0 0 16 16">
+                            <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935M3.504 1q.01.775.056 1.469c.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.5.5 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667q.045-.694.056-1.469z"/>
+                            </svg>
+                        </div>
+                        <div class="valor__texto">
+                            <p>Excelencia</p>
+                        </div>
+                    </div>
+                    <div class="valor__conjunto">
+                        <div class="valor__esfera">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                            </svg>
+                        </div>
+                        <div class="valor__texto">
+                            <p>Cuidado</p>
+                        </div>
+                    </div>
+                    <div class="valor__conjunto">
+                        <div class="valor__esfera">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                            <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+                            </svg>
+                        </div>
+                        <div class="valor__texto">
+                            <p>Profesionales</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="imagen__hero">
+                <img src="imagenes/Clinica_imagen.jpg" alt="">
+            </div>
+    </section>
+
+    <!--Seccion Nuestros servicios-->
+
+    <section class="super_contenedor__servicios">
+        <div class="titulo__super_contenedor__servicios">
+            <h2>
+                Nuestros Servicios
+            </h2>
+            <p>
+                Ofrecemos servicios integrales para el cuidado de tu salud visual
+            </p>
+        </div>
+        <section class="contenedor__servicios">
+            <article class="tarjeta__servicio">
+                <img class="tarjeta__servicio--imagen" src="imagenes/imagen_tarjeta1.jpg" alt="">
+                <div class="tarjeta__servicio--cuerpo">
+                    <h3 class="tarjeta__servicio--titulo">
+                        Examen de la Vista
+                    </h3>
+                    <p class="tarjeta__servicio--parrafo">
+                        Realizamos exámenes completos de la vista con equipos de última generación para 
+                        detectar cualquier problema visual y ofrecerte la mejor solución.
+                    </p>
+                </div>
+            </article>
+            <article class="tarjeta__servicio">
+                <img class="tarjeta__servicio--imagen" src="imagenes/imagen_tarjeta2.jpg" alt="">
+                <div class="tarjeta__servicio--cuerpo">
+                    <h3 class="tarjeta__servicio--titulo">
+                        Diagnóstico
+                    </h3>
+                    <p class="tarjeta__servicio--parrafo">
+                        Nuestros especialistas realizan diagnósticos precisos utilizando tecnología avanzada para garantizar la salud de tus ojos.                
+                    </p>
+                </div>
+            </article>
+            <article class="tarjeta__servicio">
+                <img class="tarjeta__servicio--imagen" src="imagenes/imagen_tarjeta3.jpg" alt="">
+                <div class="tarjeta__servicio--cuerpo">
+                    <h3 class="tarjeta__servicio--titulo">
+                        Venta de Lentes
+                    </h3>
+                    <p class="tarjeta__servicio--parrafo">
+                        Amplia selección de lentes de las mejores marcas, con diseños modernos y elegantes que se adaptan a tu estilo y necesidades visuales.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </section>
+
+    <!--Seccion para agendar Cita-->
+
+    <section class="contenedor__cita">
+        <article class="tarjeta__cita">
+            <div class="valor__esfera esfera--cita">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"/>
+                <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"/>
+                </svg>
+             </div>
+            <h2 class="titulo__hero titulo__hero--cita">
+                ¡Agenda tu cita hoy!
+            </h2>
+            <p class="parrafo__hero--nosotros parrafo--cita">
+                Cuida tu salud visual con nuestros expertos. Reserva tu cita de manera rápida y sencilla.
+            </p>
+            <div class="valores__nosotros valores__nosotros--cita">
+                <div class="valor__conjunto valor__conjunto--cita">
+                    <div class="valor__esfera valor__esfera--citas">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                        </svg>
+                        
+                    </div>
+                    <div class="texto__icono">
+                        <h3>Horario Flexible</h3>
+                        <p>Lun - Sáb</p>
+                    </div>
+                </div>
+                <div class="valor__conjunto valor__conjunto--cita">
+                    <div class="valor__esfera valor__esfera--citas">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                        </svg>
+                    </div>
+                    <div class="texto__icono">
+                        <h3>Atención Inmediata</h3>
+                        <p>8:00 am - 17:00 pm</p>
+                    </div>
+                </div>
+            </div>
+            <a class="boton__hero boton__hero--cita" href="#">Agendar Mi Cita Ahora</a>
+            <p class="parrafo__cita__generico">✓ Confirmación inmediata · ✓ Sin costo de reserva · ✓ Fácil reagendamiento</p>
+        </article>
+    </section>
+    <footer class="pie__pagina">
+        <section class="principal__pie__pagina">
+            <section class="contacto__pie__pagina">
+                <h2 class="titulo__contacto">
+                    Contacto
+                </h2>
+                <div class="elementos__contacto">
+                <div class="telefono__pie__pagina">
+                    <div class="valor__esfera">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                        </svg>
+                    </div>
+                    <p>
+                        +123 456 7890
+                    </p>
+                </div>
+                <div class="correo__pie__pagina">
+                    <div class="valor__esfera">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                        </svg>
+                    </div>
+                    <p>
+                        contacto@opticalindavision.com
+                    </p>
+                </div>
+                </div>
+
+            </section>
+            <section class="redes_sociales__pie__pagina">
+                <h2 class="titulo__redes_sociales">
+                    Síguenos
+                </h2>
+                <div class="botones__redes__sociales">
+                <a class="boton__red__social" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook w-5 h-5">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="boton__red__social" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg>
+                </a>
+                <a class="boton__red__social" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                    </svg>
+                </a>
+                </div>
+            </section>
+        </section>
+        <section class="secundario__pie__pagina">
+            <p>
+                © 2026 Óptica Linda Visión. Todos los derechos reservados.
+            </p>
+        </section>
+    </footer>
 </body>
 </html>
