@@ -617,7 +617,7 @@
     .valor__conjunto--cita
     {
         flex-direction: row;
-        gap: 10px;
+        gap: 15px;
     }
     .valores__nosotros--cita
     {
@@ -625,11 +625,12 @@
     }
     .texto__icono h3
     {
-        font-size: 1rem !important;
+        font-size: 0.9rem !important;
         color:var(--color-gris-oscuro)
     }
     .texto__icono p
     {
+        font-size: 0.8rem;
         color: gray;
         font-weight: light;
     }
@@ -650,6 +651,7 @@
     }
     .parrafo__cita__generico
     {
+        text-align: center;
         margin-top: 25px;
         color: var(--color-secundario);
     }
