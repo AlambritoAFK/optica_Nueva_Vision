@@ -228,10 +228,6 @@
         padding: 40px 20px;
     }
 
-    .texto__hero
-    {
-        padding-right: 60px !important;
-    }
 
     .titulo__hero
     {
@@ -295,7 +291,7 @@
         }
         .texto__hero
         {
-            padding: 0;
+            padding-right: 30px;
             width: 50%;
         }
         .imagen__hero
@@ -352,6 +348,7 @@
         justify-content: center;
         gap: 20px;
         padding: 40px 20px;
+        
     }
     .titulo__hero--nosotros
     {
@@ -597,7 +594,7 @@
     }
     .titulo__hero--cita
     {
-
+        text-align: center;
         color: var(--color-gris-oscuro);
     }
     .parrafo--cita
@@ -626,8 +623,9 @@
     {
         gap:20px;
     }
-    .texto__icono h2
+    .texto__icono h3
     {
+        font-size: 1rem !important;
         color:var(--color-gris-oscuro)
     }
     .texto__icono p
