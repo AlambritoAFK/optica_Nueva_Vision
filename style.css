@@ -44,6 +44,8 @@
         display: flex;
         flex-direction: column;
         background-color: white;
+        position: relative; 
+        z-index: 100;
     }
     .marca__nav
     {
@@ -75,8 +77,23 @@
     .barra__nav{
         padding: 0;
     }
-    .barra__nav ul{
-        list-style: none;
+    .barra__nav {
+        padding: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        transform: translateY(-150%);
+        opacity: 0;
+        visibility: hidden; 
+        transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+        z-index: -1;
+    }
+    .barra__nav.activo {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
     }
     .barra__nav li
     {
@@ -140,11 +157,14 @@
         {
             display: none;
         }
-        .barra__nav
-        {
+        .barra__nav {
             display: flex;
             justify-content: end;
             width: 70%;
+            position: static;
+            transform: translateY(0);
+            opacity: 1;
+            visibility: visible;
         }
         .barra__nav ul
         {
